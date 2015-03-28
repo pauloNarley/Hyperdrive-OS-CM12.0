@@ -1,6 +1,6 @@
 # Hyperdrive-OS-CM12.1
 
-This is the official resporistory (source) for Hyperdrive-OS based on CM 12.1 (based on Android 5.1).
+This is the official resporistory (source) for Hyperdrive-OS based on CM 12.0 (based on Android 5.0.2).
 
 Users can use this repository to view the ROM's source, build the ROM (from source), make changes to the source, view/add commits, etc. 
 
