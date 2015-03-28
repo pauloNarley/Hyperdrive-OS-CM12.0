@@ -1,0 +1,283 @@
+===================================
+Since Thu Mar 26 00:48:32 UTC 2015
+===================================
+
+   * build
+5a5d96a ota_from_target_files: Fix path for SkipNextActionIfTargetExists
+c09c72a releasetools: add compatibility for full ota functions with incrementals
+
+   * frameworks/base
+35c734e Fix ro.telephony.default_network setting parsing - fix build error
+746dc49 Fix ro.telephony.default_network setting parsing
+c28e588 can not launch recents app after change time to earlier
+b63fd70 Make forward/reverse lookup default overlay
+
+   * frameworks/opt/telephony
+6758cae Fix initial attach apn bug with OMH profile for LTE
+1f567a1 Fix issue that DDS can not get back to primary sub and network mode shows incorrect in settings.
+
+   * hardware/qcom/display-caf/msm8226
+9adc065 msm8226: add missing symlink to common.mk in msm8974
+
+   * hardware/qcom/display-caf/msm8610
+e931f9e msm8610: add missing symlink to common.mk in msm8974
+
+   * packages/apps/CMFileManager
+6e03998 Support ambigous file extension mimetypes.
+
+   * packages/apps/Contacts
+01b69c2 Summarize local phone storage in MemoryStatusActivity.
+
+   * packages/apps/ContactsCommon
+aa1e734 Store all local contacts in only one account.
+
+   * packages/apps/DeskClock
+106cfa2 Hide flip setting if the phone doesn't have the required hardware sensor.
+ba1a197 TimerReceiver: Correctly show the remaining time for 100 hours
+
+   * packages/apps/Email
+8ee3601 Update strings for crowdin
+
+   * packages/apps/Settings
+133fd8f Setting: LiveDisplay: fix percentage not showing when the dialog shows up.
+
+   * packages/apps/UnifiedEmail
+1011e62 Improve strings
+
+===================================
+Since Tue Mar 24 23:40:19 UTC 2015
+===================================
+
+   * frameworks/base
+7bc840c pm: Deal with a nuked package that was granted extra permissions
+8615df6 Frameworks: follow charging notification settings also for wireless charging
+1061a1f Revert "keyguard: dont show enter key when quick unlock is enabled"
+
+   * hardware/qcom/fm
+4c5f830 New Material icon
+
+   * hardware/qcom/wlan
+325fb2e Revert "Adding support for passing userdata in nan_register_handler"
+df34a8d Revert "Further Availability Map Structure change"
+
+   * packages/apps/Mms
+6ba0152 MMS: Add feature to auto-enable mobile data for MMS send or receive.
+
+   * packages/apps/Settings
+64f88b4 Fix incorrect ManageApplications options menu order value.
+
+   * packages/apps/Trebuchet
+19ee2fd Protected Apps: fix insets so that views stay above navbar
+42427c9 ProtectedApps: Fix protecting shortcuts with no ComponentNames
+
+   * packages/services/Telephony
+693743e TelephonyService: Don't change preferred network type on multi RAT capable devices.
+50451ca TeleService: Set mode to 2g on other sim(DSDS) prior to change
+
+===================================
+Since Mon Mar 23 08:57:09 UTC 2015
+===================================
+
+   * device/motorola/titan
+f1a36d2 Titan: Support newer LP bootloader
+
+   * frameworks/av
+c29fb05 audioflinger: refresh fast track underrun state upon start
+5a72830 audiopolicy: Fix call recording for legacy qcom HAL
+
+   * frameworks/base
+921d2ec keyguard: dont show enter key when quick unlock is enabled
+e5c7d30 Use actual storage type of sdcard/usb (1/2).
+8aae5d6 Move default value for Settings.Secure.ADVANCED_MODE to core
+73fb478 Fix screen pinning on devices without navbar
+8a7a8f5 systemui: don't use SIM display name if there isn't available info
+
+   * frameworks/opt/net/wifi
+67d21c2 Softap: update WifiContoller state on start softap failure
+
+   * frameworks/opt/telephony
+d77b4cd Telephony: Handle PS DETACH failure during DDS SWITCH
+d683d69 Abort Cross mapping process if SubInfo List is null
+
+   * packages/apps/CMFileManager
+1288edb CMFileManager: Fixed string typo
+b96748d CMFileManager: Changed status string to something more descriptive
+79d00ac cmfm: reduce banner size and adjust ratio to fit the banner view bounds
+f8a8d15 cmfm: fix typo in xml drawable
+72869df cmfm: update changelog
+1e3be7d CMFileManager: Removed copyright portion of about_summary
+96e8aa2 CMFileManager: Nitpicking on strings
+
+   * packages/apps/Calculator
+207cff2 Calculator: remove cbrt option in floating calculator advanced window
+
+   * packages/apps/ContactsCommon
+33e8f42 contactscommon: ensure preferences are loaded before reload data
+
+   * packages/apps/Mms
+6246153 Backup: fix crash when listing backups
+
+   * packages/apps/Settings
+20fb81a Settings: fix mobile network switch being unchecked
+4d5c1d0 settings: fix build
+557eb0c Fix build
+f0babb5 Settings: prompt to fill new profiles out only once
+c44d2ca Use actual storage type of sdcard/usb (2/2).
+dea5e77 Settings: Remove "advanced mode" toggle if its defaulted to enabled.
+f13b30c Settings: Set untraslatable
+
+   * packages/apps/SetupWizard
+c8e4c29 SetupWizard: Lock orientation prior to finish animation
+
+   * vendor/cm
+75271cf Airtel MMS - Add authtype=1 for PAP
+a4f3e9a Update Telekom (T-Mobile) HU APN
+
+===================================
+Since Sun Mar 22 08:16:57 UTC 2015
+===================================
+
+   * external/whispersystems/WhisperPush
+81f285c Automatic translation import
+
+   * frameworks/base
+db8cbad Automatic translation import
+
+   * hardware/qcom/fm
+74b4ecd Move Indonesia entries to arrays
+d3bada2 Automatic translation import
+
+   * packages/apps/AudioFX
+da03ec8 Automatic translation import
+
+   * packages/apps/Bluetooth
+cda26b8 Automatic translation import
+
+   * packages/apps/BluetoothExt
+1c3fe3b Automatic translation import
+
+   * packages/apps/CMAccount
+d8545f5 Automatic translation import
+
+   * packages/apps/CMBugReport
+c5bc4ee Automatic translation import
+
+   * packages/apps/CMFileManager
+d66ebd2 Automatic translation import
+80daa0e CMFileManager: Fixed positioning of title in editor custom ActionBar layout
+07154e9 CMFileManager: Check if intent action is null when applying user defined initial directory
+
+   * packages/apps/CMUpdater
+828c3d8 Automatic translation import
+
+   * packages/apps/CMWallpapers
+be990f2 Automatic translation import
+
+   * packages/apps/Calculator
+60b60f4 Automatic translation import
+
+   * packages/apps/Calendar
+4f7af54 Automatic translation import
+
+   * packages/apps/Camera2
+7a11a41 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver
+a34bb1e Automatic translation import
+
+   * packages/apps/Contacts
+e7dc11a Automatic translation import
+
+   * packages/apps/ContactsCommon
+af649c8 Automatic translation import
+
+   * packages/apps/DeskClock
+db3a532 Automatic translation import
+
+   * packages/apps/Dialer
+a59cffd Automatic translation import
+
+   * packages/apps/Eleven
+a6a6cab Automatic translation import
+
+   * packages/apps/Email
+50c4c11 email: add an option for delete the account
+
+   * packages/apps/Gallery2
+9991ef6 Automatic translation import
+
+   * packages/apps/InCallUI
+6240812 Automatic translation import
+
+   * packages/apps/LockClock
+d81eba5 Automatic translation import
+
+   * packages/apps/Mms
+c06f93e Automatic translation import
+
+   * packages/apps/PhoneCommon
+48b1458 Automatic translation import
+
+   * packages/apps/Settings
+f826275 Automatic translation import
+
+   * packages/apps/SetupWizard
+afcf65d Automatic translation import
+
+   * packages/apps/SoundRecorder
+8ba259f Automatic translation import
+
+   * packages/apps/Stk
+b0135c2 Automatic translation import
+
+   * packages/apps/Terminal
+e4da6cf Automatic translation import
+
+   * packages/apps/ThemeChooser
+9bc7b86 Automatic translation import
+
+   * packages/apps/Trebuchet
+04ad82d Automatic translation import
+
+   * packages/apps/UnifiedEmail
+70b5f3d UnifiedEmail: Increase max attachment size to 25MB
+
+   * packages/providers/DownloadProvider
+a18a824 Automatic translation import
+
+   * packages/providers/ThemesProvider
+0b72077 Automatic translation import
+
+   * packages/services/Mms
+d3944ea Automatic translation import
+
+   * packages/services/Telecomm
+e556309 Automatic translation import
+
+   * packages/services/Telephony
+234562b Automatic translation import
+
+   * packages/wallpapers/Galaxy4
+7d20065 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam
+3a8cbf7 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase
+665b08d Automatic translation import
+
+===================================
+Since Sat Mar 21 10:05:35 UTC 2015
+===================================
+
+   * frameworks/base
+20e7716 PackageManager: don't attempt to get theme on core boot
+
+   * packages/apps/CMFileManager
+da04013 CMFileManager: set search item icon to fixed width and centerCrop
+fb259f0 CMFileManager: set compute folder statistics to true by default
+df97de0 CM File Manager - Gracefully handle renaming on case-insensitive filesystems
+
+   * system/core
+92d5ea9 healthd: allow custom charger
+
